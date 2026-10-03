@@ -1,3 +1,5 @@
+![wltziff Analytics: privacy-friendly analytics, built for my WordPress site](screenshots/banner.jpg)
+
 # wltziff Analytics
 
 **A custom, privacy-first analytics dashboard I built for my own website, [wltziff.nl](https://wltziff.nl).**
