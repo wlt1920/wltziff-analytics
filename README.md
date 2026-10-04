@@ -22,29 +22,32 @@ part of my private theme and isn't published here.
   database, and IP addresses are never stored.
 - **Only what I need.** I want to know which projects people look at, how they move through the site and what they
   click, not hundreds of reports I'll never open.
-- **It fits the site.** It's built into my theme, so it knows my pages by their real names ("MOOD99", "wLt
-  AxisNex") and works with my page transitions.
+- **It fits the site.** It's built into my theme, so it knows my pages by their real names ("MOOD99",
+  "AxisNex") and works with my page transitions.
 
 ## What it shows
 
 ### Overview
-The four numbers that matter, in plain words, each compared with the period before: **people** (different
-visitors), **pages opened**, **pages per person** and **clicks**. Underneath is a chart of page views per day,
-including the quiet days. Hover a bar to see the date, the views and the number of people. You can switch between
+First, one sentence that sums it all up: *"In the last 30 days, 13 people visited your site. Together they opened
+1,807 pages and pressed 1,974 buttons or links. The page they opened most: Home."* Then the four numbers that
+matter, each explained in plain words and compared with the period before ("▲ 12% more than the 30 days before"):
+**visitors**, **pages opened**, **pages per visitor** and **clicks**. Underneath is a chart of visits per day,
+including the quiet days. Point at a bar to see the date, the views and the number of people. You can switch between
 today, 7 days, 30 days, 90 days and 12 months.
 
 ### Most viewed pages, sources and devices
 ![Most viewed pages with real page names, where people come from, and their devices](screenshots/pages-sources-devices.jpg)
 
 Pages are listed by their real names, with the address underneath and a bar for their share. Pages that were
-renamed are still recognised (my INPUT ZERO project became **wLt AxisNex**, and old visits count for the new name),
-and removed pages are marked as such. Next to the pages you can see where people come from and which devices they use.
+renamed add up under their new name (my INPUT ZERO project became **AxisNex**, and its old visits count for the
+new name). Pages I deleted from the site are **left out** of every list, the journeys and the click map, so the
+dashboard only shows what still exists. Next to the pages you can see where people come from and which devices they use.
 
 ### Visitor journeys: what each person looked at
 ![Each visitor on one line: device, source and the pages they opened in order; one opened with every step](screenshots/visitor-journeys.jpg)
 
 One line per visitor, most recent first: their device, where they came from, and the pages they opened **in
-order** (Home → wLt AxisNex → About → MOOD99 → Projects). Open a line to see every step with its time, including
+order** (Home → AxisNex → About → MOOD99 → Projects). Open a line to see every step with its time, including
 the buttons they pressed ("Clicked “Work” on Home → Projects"). The same step repeated straight away (a reload,
 a double click) shows as one line with "×2", and a return visit later shows as "came back 2 hours later".
 
@@ -80,6 +83,8 @@ stretched-out page preview that didn't match what visitors actually saw.
 | No idea what one person did | **Visitor journeys**: every visitor's path, step by step |
 | Red dots on a distorted page preview | **Click map** on the real page: buttons outlined by heat, ranked, clickable |
 | Plain tables | Cards, share bars, a clear hierarchy, works on smaller screens |
+| Old, deleted pages in every list | Only pages that still exist; renamed ones merged |
+| Technical labels ("Page views", "+12% vs previous") | Plain words and an "In short" summary anyone can read |
 
 ## How it works
 
